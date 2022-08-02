@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  width: 150px;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: #fff;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.btn:not(:last-child) {
+  margin-right: 10px;
+}
+
+.btn:active {
+  background-color: rgb(87, 160, 255);
+}
